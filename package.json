@@ -1,0 +1,23 @@
+{
+  "name": "mtgox-orderbook-recorder",
+  "version": "0.0.0",
+  "description": "records Mt.Gox order book stream to a CSV file",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlos8f/mtgox-orderbook-recorder.git"
+  },
+  "homepage": "https://github.com/carlos8f/mtgox-orderbook-recorder",
+  "keywords": [
+    "bitcoin"
+  ],
+  "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
+  "license": "MIT"
+}
