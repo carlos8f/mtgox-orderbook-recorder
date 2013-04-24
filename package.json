@@ -3,7 +3,13 @@
   "version": "0.0.0",
   "description": "records Mt.Gox order book stream to a CSV file",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "mtgox-orderbook": "~0.2.0",
+    "socket.io-client": "~0.9.11",
+    "commander": "~1.1.1",
+    "tz": "0.0.4",
+    "timezone": "0.0.19"
+  },
   "devDependencies": {
     "mocha": "*"
   },
